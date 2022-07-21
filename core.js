@@ -191,6 +191,7 @@ class App {
             if (!this.canvasCtx) {
                 return;
             }
+            this.canvasCtx.fillStyle = "#6f9e96";
             this.canvasCtx.fillRect(el.x * this.CELL_SIZE, el.y * this.CELL_SIZE, this.CELL_SIZE, this.CELL_SIZE);
         });
     }
